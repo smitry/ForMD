@@ -1,2 +1,5 @@
 payload:
   - 'mikanani.me'
+  - 'open.firstory.me'
+  - 'bad.news'
+  - 'good.news'
