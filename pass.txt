@@ -8,3 +8,4 @@ payload:
   - '+.cdn-apple.com'
   - '+.icloud.com'
   - '+.apple-cloudkit.com'
+  - '+.digicert.com'
