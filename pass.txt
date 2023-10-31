@@ -1,4 +1,4 @@
 payload:
-  - 'amazonaws.com'
-  - 'a2z.com'
-  - 'amazon.com'
+  - '+.amazonaws.com'
+  - '+.a2z.com'
+  - '+.amazon.com'
