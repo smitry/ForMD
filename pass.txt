@@ -4,3 +4,7 @@ payload:
   - '+.amazon.com'
   - '+.chime.aws'
   - '+.aws.dev'
+  - '+.apple.com'
+  - '+.cdn-apple.com'
+  - '+.icloud.com'
+  - '+.apple-cloudkit.com'
