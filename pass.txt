@@ -9,3 +9,8 @@ payload:
   - '+.icloud.com'
   - '+.apple-cloudkit.com'
   - '+.digicert.com'
+  - '+.slack.com'
+  - '+.visualstudio.com'
+  - '+.slack.com'
+  - '+.windows.com'
+  - '+.cloudfront.net'
