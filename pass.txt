@@ -2,3 +2,5 @@ payload:
   - '+.amazonaws.com'
   - '+.a2z.com'
   - '+.amazon.com'
+  - '+.chime.aws'
+  - '+.aws.dev'
