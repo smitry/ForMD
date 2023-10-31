@@ -1,0 +1,3 @@
+payload:
+  - 'amazonaws.com'
+  - 'a2z.com'
