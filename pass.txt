@@ -6,4 +6,3 @@ payload:
   - '+.aws.dev'
   - '+.digicert.com'
   - '+.slack.com'
-  - '+.cloudfront.net'
