@@ -3,4 +3,3 @@ payload:
   - 'open.firstory.me'
   - 'bad.news'
   - 'good.news'
-  - '1point3acres.com'
