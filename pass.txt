@@ -7,3 +7,4 @@ payload:
   - '+.digicert.com'
   - '+.slack.com'
   - '+.apple.com'
+  - '+.chime.com'
