@@ -8,3 +8,4 @@ payload:
   - '+.slack.com'
   - '+.apple.com'
   - '+.chime.com'
+  - '+.amazontrust.com'
