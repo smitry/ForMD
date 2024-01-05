@@ -11,3 +11,4 @@ payload:
   - '+.amazontrust.com'
   - '+.apple-cloudkit.com'
   - '+.cloudflare.com'
+  - '+.cloudflare.net'
