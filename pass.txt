@@ -9,3 +9,5 @@ payload:
   - '+.apple.com'
   - '+.chime.com'
   - '+.amazontrust.com'
+  - '+.apple-cloudkit.com'
+  - '+.cloudflare.com'
