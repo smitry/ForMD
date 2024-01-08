@@ -15,4 +15,5 @@ payload:
   - '+.cloudfront.net'
   - '+.slackb.com'
   - '+.windows.com'
+  - '+.microsoft.com'
   - '+.media-amazon.com'
