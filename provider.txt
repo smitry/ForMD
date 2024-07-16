@@ -1,0 +1,110 @@
+proxies:
+  - name: "609ffecd-VLESS_TCP/TLS_Vision"
+    type: vless
+    server: justflying.cloudns.ch
+    port: 443
+    uuid: 609ffecd-9855-4457-bb12-1127f9ade3d8
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: "609ffecd-VLESS_WS"
+    type: vless
+    server: justflying.cloudns.ch
+    port: 443
+    uuid: 609ffecd-9855-4457-bb12-1127f9ade3d8
+    udp: true
+    tls: true
+    network: ws
+    client-fingerprint: chrome
+    servername: justflying.cloudns.ch
+    ws-opts:
+      path: /tzkdws
+      headers:
+        Host: justflying.cloudns.ch
+  - name: "609ffecd-vless_grpc"
+    type: vless
+    server: justflying.cloudns.ch
+    port: 443
+    uuid: 609ffecd-9855-4457-bb12-1127f9ade3d8
+    udp: true
+    tls: true
+    network: grpc
+    client-fingerprint: chrome
+    servername: justflying.cloudns.ch
+    grpc-opts:
+      grpc-service-name: tzkdgrpc
+  - name: "609ffecd-VMess_WS"
+    type: vmess
+    server: justflying.cloudns.ch
+    port: 443
+    uuid: 609ffecd-9855-4457-bb12-1127f9ade3d8
+    alterId: 0
+    cipher: none
+    udp: true
+    tls: true
+    client-fingerprint: chrome
+    servername: justflying.cloudns.ch
+    network: ws
+    ws-opts:
+      path: /tzkdvws
+      headers:
+        Host: justflying.cloudns.ch
+  - name: "609ffecd-trojan_tcp"
+    type: trojan
+    server: justflying.cloudns.ch
+    port: 443
+    password: 609ffecd-9855-4457-bb12-1127f9ade3d8
+    client-fingerprint: chrome
+    udp: true
+    sni: justflying.cloudns.ch
+  - name: "609ffecd-Trojan_gRPC"
+    server: justflying.cloudns.ch
+    port: 443
+    type: trojan
+    password: 609ffecd-9855-4457-bb12-1127f9ade3d8
+    network: grpc
+    sni: justflying.cloudns.ch
+    udp: true
+    grpc-opts:
+      grpc-service-name: tzkdtrojangrpc
+  - name: "609ffecd-singbox_hysteria2"
+    type: hysteria2
+    server: justflying.cloudns.ch
+    port: 20403
+    password: 609ffecd-9855-4457-bb12-1127f9ade3d8
+    alpn:
+        - h3
+    sni: justflying.cloudns.ch
+    up: "30 Mbps"
+    down: "200 Mbps"
+  - name: "609ffecd-vless_reality_vision"
+    type: vless
+    server: justflying.cloudns.ch
+    port: 443
+    uuid: 609ffecd-9855-4457-bb12-1127f9ade3d8
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: justflying.cloudns.ch
+    reality-opts:
+      public-key: v-Jjqe5_3f9C66Pq-4DoCF9tUNjMol9QWa35tVfF5AY
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+  - name: "609ffecd-vless_reality_grpc"
+    type: vless
+    server: justflying.cloudns.ch
+    port: 443
+    uuid: 609ffecd-9855-4457-bb12-1127f9ade3d8
+    network: grpc
+    tls: true
+    udp: true
+    servername: justflying.cloudns.ch
+    reality-opts:
+      public-key: v-Jjqe5_3f9C66Pq-4DoCF9tUNjMol9QWa35tVfF5AY
+      short-id: 6ba85179e30d4fc2
+    grpc-opts:
+      grpc-service-name: "grpc"
+    client-fingerprint: chrome
